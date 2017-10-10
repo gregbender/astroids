@@ -1,0 +1,35 @@
+Greg Bender
+Computer Graphics - Project 2
+-----------------------------
+
+This is a game similar to 'Asteroids'.  It is only partially complete.  Currently you can move the
+'space ship' around, and fire bullets.  However collision detection is rather poorely implemented,
+and collisions are not as exact as they should be.
+
+There are 3 scenes than can be clicked through using the LEFT MOUSE BUTTON.
+Scene 1 -- Regular 'Asteroids Game'
+Scene 2 -- 'Asteroids Game' with a mirrored box in the top right corner
+Scene 3 -- Some random primitive objects being drawn
+        -- the objects used here were the few 'extra' that I needed to implement,
+           but were not being used in the 'Asteroids Game'
+           
+Program is compiled by:
+make PROG=lab2
+
+ISSUES
+------
+You can currently 'shoot' the asteroids, and they will be destroyed.  But if the ship
+runs into one of the asteroids, they are not destroyed, the ship will
+just pass through them.
+
+
+Asteroids Controls
+-----------------------
+UP ARROW    - Fire Engines
+LEFT ARROW  - Turn Left
+RIGHT ARROW - Turn Right
+SPACEBAR    - Fire Weapon
+S KEY       - Toggle Shields
+
+LEFT MOUSE CLICK - Make a zoom window appear in top right of screen
+                 - and toggle between asteroids game and extra scene
